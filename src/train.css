@@ -1,0 +1,266 @@
+.hero {
+  width: 100%;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.headerh1 {
+  font-size: 2.6rem;
+  color: var(--lightslate);
+}
+.contactbtn {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 17px 40px;
+  border-radius: 5px;
+  background-color: var(--creme);
+  transition: 0.3s ease-in;
+  display: flex;
+  align-items: center;
+}
+.githubbtn {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #2d3748;
+  transition: 0.3s ease;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.githubicon {
+  font-size: 1.5em;
+  padding-right: 3px;
+}
+.btngroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactbtn:hover {
+  background-color: var(--creme2);
+}
+.githubbtn:hover {
+  background-color: #4a5568;
+}
+.headerimportant {
+  font-size: 4rem;
+  color: var(--creme);
+}
+.herodesc {
+  width: 40%;
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--slate);
+}
+@media screen and (max-width: 760px) {
+  .herodesc {
+    width: 85%;
+  }
+  .headerh1 {
+    width: 85%;
+  }
+}
+
+/* About */
+.about {
+  width: 100%;
+  display: flex;
+  padding-top: 30vh;
+  margin-bottom: 20vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  height: auto;
+  flex-wrap: wrap;
+}
+.aboutintro {
+  width: 30%;
+}
+.techstack {
+  width: 30%;
+  align-items: center;
+}
+.aboutdesc {
+  color: var(--slate);
+  font-size: 1.2rem;
+}
+.techtext {
+  display: flex;
+  align-items: center;
+}
+.techicon {
+  color: white;
+  display: flex;
+  font-size: 1.3rem;
+  align-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: 0.2s ease;
+  cursor: default;
+}
+.techicon:hover {
+  color: var(--creme);
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.icon {
+  margin-right: 5px;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .aboutintro {
+    width: 85%;
+  }
+  .techstack {
+    width: 85%;
+  }
+}
+.projectsdiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
+.projcontainer {
+  width: 70%;
+}
+.project {
+  width: 100%;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projinfo {
+  text-align: end;
+  width: 40%;
+}
+.projname {
+  color: var(--lightslate);
+  font-size: 1.5rem;
+  padding-right: 10px;
+  margin: 0;
+}
+.projthumbnail {
+  width: 30em;
+  margin: 15px;
+  height: auto;
+  border-radius: 5px;
+}
+.projdesc {
+  color: #dedede;
+  font-size: 1.1rem;
+  background-color: #2d3748;
+  border-radius: 10px;
+  padding: 10px;
+}
+.projgitbtn {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.gitbtn {
+  color: white;
+  padding-right: 5px;
+  transition: 0.2s ease;
+}
+.gitbtn:hover {
+  color: var(--creme);
+}
+.invprojinfo {
+  text-align: start;
+  width: 40%;
+}
+@media (max-width: 35em) {
+  .projinfo {
+    width: 85%;
+  }
+  .invprojinfo {
+    width: 85%;
+  }
+}
+.secondarycontainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
+.secprojects {
+  width: 70%;
+}
+.secprojlist {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.secproject {
+  height: 20em;
+  width: 20em;
+  background-color: #2d3748;
+  color: white;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.secprojectname {
+  padding: 15px;
+  font-size: 1.6rem;
+  margin: 0;
+}
+.topsec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.secprojectdesc {
+  padding: 0px 15px 15px 15px;
+  font-size: 1rem;
+  margin: 0;
+}
+.contactdesc {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--slate);
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.contactdiv {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+}
+.contactbtn2 {
+  padding: 15px 30px;
+  border: 1px solid var(--creme);
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--creme);
+  transition: 0.2s ease-in;
+  margin-bottom: 10vh;
+}
+.contactbtn2:hover {
+  background-color: var(--cremebg);
+}
