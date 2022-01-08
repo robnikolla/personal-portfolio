@@ -179,6 +179,10 @@
   padding-right: 5px;
   transition: 0.2s ease;
 }
+.nbtn {
+  color: white;
+  padding-right: 5px;
+}
 .gitbtn:hover {
   color: var(--creme);
 }
@@ -186,7 +190,7 @@
   text-align: start;
   width: 40%;
 }
-@media (max-width: 35em) {
+@media (max-width: 900px) {
   .projinfo {
     width: 85%;
   }
