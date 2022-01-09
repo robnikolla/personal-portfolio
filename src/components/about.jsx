@@ -7,7 +7,7 @@ const About = (props) => {
         <div className="aboutintro">
             <h3 style={{color:"white",fontSize:"2rem",textAlign:"center"}}><code>About me</code></h3>
         <p className="aboutdesc">
-        Hi! I'm Robert. Currently, I'm a student but I've learned a lot about programming during high school. I'm an 18-year-old student who is interested in pursuing a career in Software Development. My long-term goal is to gain work experience and sharpen my skills as a Software Developer. I'm always open to learning new things whenever I get the chance. I believe in being realistic.
+        Hi! I'm Robert. Currently, I'm a firt-year student in UBT University. I'm an 18-year-old student who is interested in pursuing a career in Software Development. My long-term goal is to gain work experience and sharpen my skills as a Software Developer. I'm always open to learning new things whenever I get the chance. I believe in being realistic.
           
         </p>
         </div>
