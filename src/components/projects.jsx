@@ -14,7 +14,7 @@ const Project = (props) =>{
                         <p className="projdesc">Pitchspoon is an Album Review Magazine. Discuss and rate your favorite albums. This Project was made with Wordpress (Custom Theme).
                         </p>
                         <p style={{color:"var(--slate)",paddingRight:"10px"}}><code>{props.techstack}</code></p>
-                        <a href={props.githublink}  target="_blank" className="projgitbtn"><FiGithub className="gitbtn"/></a>
+                        <a href={props.githublink}  target="_blank" rel="noreferrer" className="projgitbtn"><FiGithub className="gitbtn"/></a>
                       </div>
                 </div>
         )
@@ -28,7 +28,7 @@ const InvProject = (props) => {
                           <h2 className="projname" style={{paddingLeft:"10px"}}>{props.name}</h2>
                           <p className="projdesc">Pharmamanager is a webapp that is used for managing medicine and worker information easily and quickly. The webapp was built using HTML & CSS (Materialize Framework), and PHP & MySQL.</p>
                           <p style={{color:"var(--slate)",paddingLeft:"10px"}}><code>{props.techstack}</code></p>
-                          <a href={props.githublink} target="_blank" className="projgitbtn" ><FiGithub className="gitbtn"/></a>
+                          <a href={props.githublink} target="_blank" rel="noreferrer" className="projgitbtn" ><FiGithub className="gitbtn"/></a>
                         </div>
                         <img className="projthumbnail"src={props.thumbnail} alt="" />
                         

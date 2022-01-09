@@ -1,5 +1,4 @@
 import React from 'react'
-import {AiOutlineFolder} from 'react-icons/ai';
 import {FiGithub} from 'react-icons/fi'
 import {BsFileEarmarkCodeFill} from 'react-icons/bs'
 

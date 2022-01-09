@@ -1,7 +1,5 @@
 import React from 'react'
 import { DiGithubBadge } from "react-icons/di";
-import {MdMessage} from 'react-icons/md';
-
 
 
 const Hero = () => {
@@ -13,7 +11,7 @@ const Hero = () => {
         <div class="btngroup">
             <div><a href="mailto: nikollarobert8@gmail.com" class="contactbtn">Contact</a></div>
             
-            <div><a href="https://github.com/robnikolla" target="_blank" class="githubbtn"><DiGithubBadge className="githubicon"/>  GitHub</a></div>
+            <div><a href="https://github.com/robnikolla" target="_blank" rel="noreferrer" class="githubbtn"><DiGithubBadge className="githubicon"/>  GitHub</a></div>
         </div>   
 
 

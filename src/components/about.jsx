@@ -1,7 +1,6 @@
 import React from 'react'
-import Person from './person.png';
 import {DiJsBadge,DiCss3,DiPhp,DiReact,DiMysql,DiWordpress,DiPython,DiJava,} from 'react-icons/di';
-import {SiTailwindcss,SiFirebase} from 'react-icons/si'
+import {SiTailwindcss} from 'react-icons/si'
 const About = (props) => {
     return(
     <div className="about" id="about">
