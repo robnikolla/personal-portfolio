@@ -30,7 +30,7 @@ const Secondary=()=> {
         <div className="secprojlist">
             <OtherProject title="Stock Manager" githublink="https://github.com/robnikolla/stock-manager" description="Stock Manager is a simple Java GUI App which is used to manage products data such as name, barcode, producer, amount of products. " codebase="JavaFX Scenebuilder"></OtherProject>
             <OtherProject title="React Spreadsheet" githublink="https://github.com/robnikolla/react-spreadsheet" description=" React Spreadsheet is a spreadsheet table with editeable cells. The table has these features: Row adding and removing, automatic calculation and rendering."codebase="ReactJS"></OtherProject>
-            <OtherProject title="Personal Portfolio" githublink="https://github.com/robnikolla/personal-portfolio" description="The website youre looking at right now. The portfolio uses ReactJS and Styled Components and icons imported from npm packages" codebase="ReactJS"></OtherProject>
+            <OtherProject title="Personal Portfolio" githublink="https://github.com/robnikolla/personal-portfolio" description="The website youre looking at right now. The portfolio uses ReactJS and Styled Components and icons imported from npm packages." codebase="ReactJS"></OtherProject>
             </div>   
 
 

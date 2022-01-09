@@ -8,7 +8,8 @@ const About = (props) => {
         <div className="aboutintro">
             <h3 style={{color:"white",fontSize:"2rem",textAlign:"center"}}><code>About me</code></h3>
         <p className="aboutdesc">
-            Hi! My name is Robert, and I am from Kosovo.  I am native to Ferizaj. Currently, im pursuing at the UBT University. Im an 18 year old guy who wants to secure a job. My long term goal is by gaining work experience of many years in the field of coding. I would like to work in a nice position, contributing to the betterment of my workplace and society. I am a disciplined and motivated soul. Im always opened to learn new things whenever i get the chance. I believe in being realistic. 
+        Hi! I'm Robert. Currently, I'm a student but I've learned a lot about programming during high school. I'm an 18-year-old student who is interested in pursuing a career in Software Development. My long-term goal is to gain work experience and sharpen my skills as a Software Developer. I'm always open to learning new things whenever I get the chance. I believe in being realistic.
+          
         </p>
         </div>
         

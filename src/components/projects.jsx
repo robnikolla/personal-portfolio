@@ -12,8 +12,7 @@ const Project = (props) =>{
                         <p style={{color:"var(--creme)",paddingRight:"10px",fontSize:"0.9rem",margin:"2px"}}><code>Featured Project</code></p>
                         <h2 className="projname">{props.name}</h2>
                         <p className="projdesc">Pitchspoon is an Album Review Magazine. Discuss and rate your favorite albums. This Project was made with Wordpress (Custom Theme).
-
-</p>
+                        </p>
                         <p style={{color:"var(--slate)",paddingRight:"10px"}}><code>{props.techstack}</code></p>
                         <a href={props.githublink}  target="_blank" className="projgitbtn"><FiGithub className="gitbtn"/></a>
                       </div>
