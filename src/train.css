@@ -268,3 +268,9 @@
 .contactbtn2:hover {
   background-color: var(--cremebg);
 }
+
+@media (max-width: 900px) {
+  .contactdesc {
+    width: 80%;
+  }
+}
