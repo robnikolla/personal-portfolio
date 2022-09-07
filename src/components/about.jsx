@@ -1,13 +1,13 @@
 import React from 'react'
 import {DiJsBadge,DiCss3,DiPhp,DiReact,DiMysql,DiWordpress,DiPython,DiJava,} from 'react-icons/di';
-import {SiTailwindcss} from 'react-icons/si'
+import {SiTailwindcss, SiFirebase} from 'react-icons/si'
 const About = (props) => {
     return(
     <div className="about" id="about">
         <div className="aboutintro">
             <h3 style={{color:"white",fontSize:"2rem",textAlign:"center"}}><code>About me</code></h3>
         <p className="aboutdesc">
-        Hi! I'm Robert. Currently, I'm a first-year student in UBT University(Computer Science and Engineering). I learned programming in Digital School in Ferizaj during high-school. I'm an 18-year-old student who is interested in pursuing a career in Software Development. My long-term goal is to gain work experience and sharpen my skills as a Software Developer. I'm always open to learning new things whenever I get the chance. I believe in being realistic.
+        Hi! I'm Robert. Currently, I'm a university student in UBT (Computer Science and Engineering). I started coding during high-school. I am a freelancer and a student who is interested in pursuing a career in Software Engineering. My long-term goal is to gain work experience and sharpen my skills as a Software Developer. I'm always open to learning new things whenever I get the chance. I believe in being realistic.
           
         </p>
         </div>
@@ -43,6 +43,9 @@ const About = (props) => {
                 
                 <div className="techicon">
                     <h3><DiMysql className="icon"/><code>MySQL</code></h3>
+                </div>
+                <div className="techicon">
+                    <h3><SiFirebase className="icon"/><code>Firebase</code></h3>
                 </div>
                 
                 

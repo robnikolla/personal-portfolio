@@ -12,6 +12,9 @@ body {
   background-color: var(--navy);
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

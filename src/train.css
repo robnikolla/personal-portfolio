@@ -197,6 +197,9 @@
   .invprojinfo {
     width: 85%;
   }
+  .projthumbnail{
+    width:120%;
+  }
 }
 .secondarycontainer {
   width: 100%;
