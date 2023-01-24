@@ -41,7 +41,7 @@ const Projects = (props) => {
         return(
            <div className="projectsdiv" id="projectsdiv">
                <div className="projcontainer">
-                <h3 style={{color:"var(--creme )",fontSize:"1.6rem",textAlign:"center"}}>Heres some projects I've built.</h3>  
+                <h3 style={{color:"var(--creme )",fontSize:"1.6rem",textAlign:"center"}}>Here are some projects I've built.</h3>  
                <InvProject githublink="https://github.com/robnikolla/pharma-manager" thumbnail={Pharmamag} name="Pharmamag" techstack="PHP &nbsp; MySQL &nbsp; MaterializeCSS"></InvProject>
                <Project githublink="https://github.com/robnikolla/pitchspoon"thumbnail={Pitchspoon} name="Pitchspoon" techstack="Wordpress &nbsp; Custom Theme &nbsp; PHP"></Project>
                 </div>

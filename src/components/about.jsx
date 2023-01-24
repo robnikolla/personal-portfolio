@@ -7,13 +7,12 @@ const About = (props) => {
         <div className="aboutintro">
             <h3 style={{color:"white",fontSize:"2rem",textAlign:"center"}}><code>About me</code></h3>
         <p className="aboutdesc">
-        Hi! I'm Robert. Currently, I'm a university student in UBT (Computer Science and Engineering). I started coding during high-school. I am a freelancer and a student who is interested in pursuing a career in Software Engineering. My long-term goal is to gain work experience and sharpen my skills as a Software Developer. I'm always open to learning new things whenever I get the chance. I believe in being realistic.
-          
+        "Robert Nikolla is a student and software developer from Kosovo. He discovered his passion for programming during high school and has since dedicated himself to honing his skills. Robert is currently pursuing a degree in Computer Science and Engineering at UBT and is known for his fast learning abilities and strong interest in software engineering. He is a dedicated and ambitious individual who is always seeking to expand his knowledge and build new projects. With his drive and talent, Robert is eager to launch a career in software engineering and make his mark in the industry."
         </p>
         </div>
         
          <div className="techstack">
-             <h3 style={{color:"white",fontSize:"2rem",textAlign:"center"}}><code>Tech I've worked with</code></h3>
+             <h3 style={{color:"white",fontSize:"2rem",textAlign:"center"}}><code>Tech I've fiddled with</code></h3>
             <div className="icons">
                 <div className="techicon">
                     <h3 className="techtext"><DiJsBadge className="icon"/><code>JavaScript</code></h3>
