@@ -7,7 +7,7 @@ const About = (props) => {
         <div className="aboutintro">
             <h3 style={{color:"white",fontSize:"2rem",textAlign:"center"}}><code>About me</code></h3>
         <p className="aboutdesc">
-        "Robert Nikolla is a student and software developer from Kosovo. He discovered his passion for programming during high school and has since dedicated himself to honing his skills. Robert is currently pursuing a degree in Computer Science and Engineering at UBT and is known for his fast learning abilities and strong interest in software engineering. He is a dedicated and ambitious individual who is always seeking to expand his knowledge and build new projects. With his drive and talent, Robert is eager to launch a career in software engineering and make his mark in the industry."
+        Hello, my name is Robert Nikolla and I'm a student and software developer from Kosovo. I discovered my passion for programming during high school and have since dedicated myself to honing my skills. I'm currently pursuing a degree in Computer Science and Engineering at UBT and I'm known for my fast learning abilities and strong interest in software engineering. I am a dedicated and ambitious individual who is always seeking to expand his knowledge and build new projects. I am also eager to launch a career in software engineering and make my mark in the industry."
         </p>
         </div>
         
